@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda run *)",
+      "Read(//f/ProgramData/anaconda3/envs/data_annotation/**)",
+      "Read(//f/ProgramData/anaconda3/envs//**)",
+      "Bash(\"/F/ProgramData/anaconda3/envs/data_annotation/python.exe\" tests/test_core.py)",
+      "Bash(/F/ProgramData/anaconda3/envs/data_annotation/python.exe *)",
+      "Bash(SAM2_BUILD_CUDA=0 \"/F/ProgramData/anaconda3/envs/data_annotation/python.exe\" -m pip install -e . --no-input -q)"
+    ]
+  }
+}

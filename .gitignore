@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Large model files - do NOT upload
+Models/
+
+# Third-party repositories (install via pip instead)
+third_party_repository/
+
+# Test artifacts
+_test_imports.py
