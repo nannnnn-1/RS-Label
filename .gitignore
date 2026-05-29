@@ -11,8 +11,11 @@ Thumbs.db
 *.swo
 *~
 
-# Large model files - do NOT upload
-Models/
+# Large model files - do NOT upload (root only, not src/models/)
+/Models/
+
+# Test data images
+test_data/
 
 # Third-party repositories (install via pip instead)
 third_party_repository/
